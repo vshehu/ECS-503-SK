@@ -1,0 +1,11 @@
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.deps.json
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.runtimeconfig.json
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.runtimeconfig.dev.json
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.dll
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.pdb
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.csprojAssemblyReference.cache
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.csproj.CoreCompileInputs.cache
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.AssemblyInfoInputs.cache
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.AssemblyInfo.cs
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.dll
+C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.pdb
