@@ -6,6 +6,7 @@ namespace SK.StudentTranscript
     {
         static void Main(string[] args)
         {
+            //Declaring variables
             string[] courses = new string[20];
             int[] grades = new int[20];
             int[] credits = new int[20];
