@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Xml;
 
 namespace SK.StudentTranscript
@@ -46,20 +48,19 @@ namespace SK.StudentTranscript
 
                 while (true) 
                 {
-                    string _grade = Console.ReadLine();
-                    
-                    switch (_grade.ToLower())
+                    var mGrade = Console.ReadLine();
+
+                    switch (mGrade.ToLower())
                     {
                         case "in":
-                            _grade = "3";
+                            mGrade = "3";
                             break;
                         case "nr":
-                            _grade = "4";
+                            mGrade = "4";
                             break;
                     }
 
-                    int grade;
-                    if (int.TryParse(_grade, out grade) && (grade >= 3 && grade <= 10))
+                    if (int.TryParse(mGrade, out var grade) && (grade >= 3 && grade <= 10))
                     {
                         grades.Add(grade);
                         break;
@@ -82,18 +83,7 @@ namespace SK.StudentTranscript
             double shumaNotave = 0;
             for (var i = 0; i<courses.Count; i++)
             {
-                switch (grades[i])
-                {
-                    case 3:
-                        Console.WriteLine(courses[i] + "\t\t" + credits[i] + "\t" + "IN" );
-                        break;
-                    case 4:
-                        Console.WriteLine(courses[i] + "\t\t" + credits[i] + "\t" + "NR" );
-                        break;
-                    default:
-                        Console.WriteLine(courses[i] + "\t\t" + credits[i] + "\t" + grades[i] );
-                        break;
-                }
+                Console.WriteLine(courses[i] + "\t\t" + credits[i] + "\t" + UserReadableGrade(grades[i]));
 
                 totalKredit += credits[i];
                 if (!(grades[i] >= 3 && grades[i] <= 5))  {
@@ -108,6 +98,19 @@ namespace SK.StudentTranscript
             Console.WriteLine("Credits awarded: " + shumaKredive);
             Console.WriteLine("Number of courses: " + courses.Count);
             Console.WriteLine("GPA: " + gpa.ToString("0.00"));
+        }
+        
+        private static string UserReadableGrade(int grade)
+        {
+            switch (grade)
+            {
+                case 3:
+                    return "IN";
+                case 4:
+                    return "NR";
+                default:
+                    return grade.ToString();
+            }
         }
     }
 }
