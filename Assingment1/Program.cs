@@ -97,7 +97,7 @@ namespace Assingment1
             Console.WriteLine("---------------------------------");
             Console.WriteLine("Credits attempted: " + sumofcredits);
             Console.WriteLine("Credits awarded: " + creditpassed);
-            Console.WriteLine("Number of courses: " + Courses.Count());
+            Console.WriteLine("Number of courses: " + Courses.Count()); // or +i;
             Console.WriteLine("GPA: " + gpa.ToString("0.00"));
 
             Console.ReadLine();
