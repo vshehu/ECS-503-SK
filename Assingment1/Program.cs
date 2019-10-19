@@ -26,7 +26,7 @@ namespace Assingment1
                     break;
 
                 Courses.Add(coursename);
-                Courses[i] = coursename;
+               
 
                 Console.WriteLine("Register the grade for course: " + coursename);
                 int coursegrade = Convert.ToInt32(Console.ReadLine());
@@ -39,7 +39,7 @@ namespace Assingment1
                 }
 
                 Grades.Add(coursegrade);
-                Grades[i] = coursegrade;
+               
 
                 Console.WriteLine("Register the credits for course: " + coursename);
                 int coursecredit = Convert.ToInt32(Console.ReadLine());
@@ -50,7 +50,7 @@ namespace Assingment1
                     coursecredit = Convert.ToInt32(Console.ReadLine());
                 }
                 Credits.Add(coursecredit);
-                Credits[i] = coursecredit;
+                
 
 
                 i++;
@@ -97,7 +97,7 @@ namespace Assingment1
             Console.WriteLine("---------------------------------");
             Console.WriteLine("Credits attempted: " + sumofcredits);
             Console.WriteLine("Credits awarded: " + creditpassed);
-            Console.WriteLine("Number of courses: " + i);
+            Console.WriteLine("Number of courses: " + Courses.Count());
             Console.WriteLine("GPA: " + gpa.ToString("0.00"));
 
             Console.ReadLine();
