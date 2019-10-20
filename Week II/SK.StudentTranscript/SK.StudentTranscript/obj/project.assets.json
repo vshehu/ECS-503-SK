@@ -687,24 +687,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Visar\\.nuget\\packages\\": {},
+    "C:\\Users\\Kaltrina\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Visar\\source\\repos\\SK.StudentTranscript\\SK.StudentTranscript\\SK.StudentTranscript.csproj",
+      "projectUniqueName": "C:\\Users\\Kaltrina\\Source\\Repos\\ECS-503-SK\\Week II\\SK.StudentTranscript\\SK.StudentTranscript\\SK.StudentTranscript.csproj",
       "projectName": "SK.StudentTranscript",
-      "projectPath": "C:\\Users\\Visar\\source\\repos\\SK.StudentTranscript\\SK.StudentTranscript\\SK.StudentTranscript.csproj",
-      "packagesPath": "C:\\Users\\Visar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Visar\\source\\repos\\SK.StudentTranscript\\SK.StudentTranscript\\obj\\",
+      "projectPath": "C:\\Users\\Kaltrina\\Source\\Repos\\ECS-503-SK\\Week II\\SK.StudentTranscript\\SK.StudentTranscript\\SK.StudentTranscript.csproj",
+      "packagesPath": "C:\\Users\\Kaltrina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kaltrina\\Source\\Repos\\ECS-503-SK\\Week II\\SK.StudentTranscript\\SK.StudentTranscript\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Visar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Kaltrina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -735,10 +738,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

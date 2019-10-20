@@ -9,3 +9,13 @@ C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\
 C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.AssemblyInfo.cs
 C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.dll
 C:\Users\Visar\source\repos\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.pdb
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.deps.json
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.runtimeconfig.json
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.runtimeconfig.dev.json
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.dll
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\bin\Debug\netcoreapp2.2\SK.StudentTranscript.pdb
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.csprojAssemblyReference.cache
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.AssemblyInfoInputs.cache
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.AssemblyInfo.cs
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.dll
+C:\Users\Kaltrina\Source\Repos\ECS-503-SK\Week II\SK.StudentTranscript\SK.StudentTranscript\obj\Debug\netcoreapp2.2\SK.StudentTranscript.pdb
