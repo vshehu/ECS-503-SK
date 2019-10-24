@@ -1,57 +1,77 @@
 ﻿using System;
-
-namespace SK.StudentTranscript
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace Assingment1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string[] courses = new string[20];
-            int[] grades = new int[20];
-            int[] credits = new int[20];
-            int currentIndex = 0;
+            List<string> Courses = new List<string>();
+            List<int> Credits = new List<int>();
+            List<int> Grades = new List<int>();
+            int i = 0;
             while (true)
             {
-                Console.WriteLine("Ju lutem shkruani emrin e lendes, ose shkruani X per te vazhduar!");
-                string courseName = Console.ReadLine();
-                if (courseName == "X" || courseName == "x")
+                Console.WriteLine("shkruaj emrin e lendes ose 'X' per te vazhduar: ");
+                string coursename = Console.ReadLine();
+                if (coursename == "x" || coursename == "X")
                     break;
-
-                courses[currentIndex] = courseName;
-
-                Console.WriteLine("Ju lutem shkruani numrin e kredive per kete lende!");
-                int credit = Convert.ToInt32(Console.ReadLine());
-                credits[currentIndex] = credit;
-
-                Console.WriteLine("Ju lutem shkruani noten per kete lende!");
-                int grade = Convert.ToInt32(Console.ReadLine());
-                grades[currentIndex] = grade;
-                currentIndex++;
+                Courses.Add(coursename);
+                Console.WriteLine("shkruaj noten e lendes: " + coursename);
+                int coursegrade = Convert.ToInt32(Console.ReadLine());
+                while ((coursegrade < 5 || coursegrade > 10) && (coursegrade != -2 && coursegrade != -1))
+                {
+                    Console.WriteLine("ju keni shtypur gabim : " + coursename + " provo perseri!");
+                    coursegrade = Convert.ToInt32(Console.ReadLine());
+                }
+                Grades.Add(coursegrade);
+                Console.WriteLine("shkruaj kredit per lenden: " + coursename);
+                int coursecredit = Convert.ToInt32(Console.ReadLine());
+                while (coursecredit < 1 || coursecredit > 10)
+                {
+                    Console.WriteLine("ju keni shtypyr gabim: " + coursename + " provo perseri! ");
+                    coursecredit = Convert.ToInt32(Console.ReadLine());
+                }
+                Credits.Add(coursecredit);
+                i++;
             }
-            
-            Console.WriteLine("        TRANSKRIPTA E STUDENTIT");
-            Console.WriteLine("=======================================");
-            Console.WriteLine("| LENDA \t\t KREDITE \t NOTA");
-            Console.WriteLine("=======================================");
-            double shumaKredive = 0;
-            double shumaNotave = 0;
-            for (var i = 0; i<currentIndex; i++)
+            Console.WriteLine("***********************************************");
+            Console.WriteLine("\tStudents Transkripts");
+            Console.WriteLine("***********************************************");
+            Console.WriteLine("\tLenda \t Nota\t Kredit");
+            Console.WriteLine("***********************************************");
+            double sum = 0;
+            double sumofcredits = 0;
+            double creditpassed = 0;
+            for (int k = 0; k < i; k++)
             {
-                Console.WriteLine(courses[i] + "\t\t" + credits[i] + "\t" + grades[i]);
-                shumaKredive += credits[i];
-                shumaNotave += credits[i] * grades[i];
-            }
-            double gpa = shumaNotave / shumaKredive;
+                if (Grades[k] < 0)
+                {
+                    if (Grades[k] == -1)
+                        Console.WriteLine("\t" + Courses[k] + "\t" + "in" + "\t" + Credits[k]);
+                    else
+                        Console.WriteLine("\t" + Courses[k] + "\t" + "nr" + "\t" + Credits[k]);
+                }
+                else
+                    Console.WriteLine("\t" + Courses[k] + "\t" + Grades[k] + "\t" + Credits[k]);
+                if (Grades[k] > 5)
+                {
+                    creditpassed += Credits[k];
+                    sum += Grades[k] * Credits[k];
+                }
+                sumofcredits += Credits[k];
 
-            Console.WriteLine("=======================================");
-            Console.WriteLine("Nota mesatare: " + gpa.ToString("0.00"));
+            }
+            double gpa = sum / creditpassed;
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Kredit e tentuara: " + sumofcredits);
+            Console.WriteLine("Kredit e dhena: " + creditpassed);
+            Console.WriteLine("Numri i lendve: " + i);
+            Console.WriteLine("Mesatarja: " + gpa.ToString("0.00"));
             Console.ReadLine();
         }
     }
 }
-
-
-
-
-
-
