@@ -1,0 +1,38 @@
+﻿@model List<Week_V___MVCIntro.Models.TodoList>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<h2>My todo lists:</h2>
+
+<table>
+
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            <a href="/List/Details/@item.Id">
+                @if (item.Deadline < DateTime.Now)
+                {
+                <del>
+                    @item.Name
+                </del>
+                }
+                else
+                {
+                    @item.Name
+                }
+
+            </a>
+        </td>
+        <td>
+            @item.Deadline
+        </td>
+    </tr>
+            }
+        
+    </table>

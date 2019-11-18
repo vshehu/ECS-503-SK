@@ -1,0 +1,33 @@
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\bin\Debug\netcoreapp2.2\Week V - MVCIntro.deps.json
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\bin\Debug\netcoreapp2.2\Week V - MVCIntro.runtimeconfig.json
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\bin\Debug\netcoreapp2.2\Week V - MVCIntro.runtimeconfig.dev.json
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\bin\Debug\netcoreapp2.2\Week V - MVCIntro.dll
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.csprojAssemblyReference.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.csproj.CoreCompileInputs.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.RazorAssemblyInfo.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.RazorAssemblyInfo.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.AssemblyInfoInputs.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.AssemblyInfo.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.TagHelpers.input.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.TagHelpers.output.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.RazorCoreGenerate.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.RazorTargetAssemblyInfo.cache
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.RazorTargetAssemblyInfo.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\bin\Debug\netcoreapp2.2\Week V - MVCIntro.pdb
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\bin\Debug\netcoreapp2.2\Week V - MVCIntro.Views.dll
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\bin\Debug\netcoreapp2.2\Week V - MVCIntro.Views.pdb
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.Views.pdb
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.dll
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.pdb
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Week V - MVCIntro.csproj.CopyComplete
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\List\Index.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\List\Hello.g.cshtml.cs
+C:\Users\Visar\source\repos\Week V - MVCIntro\Week V - MVCIntro\obj\Debug\netcoreapp2.2\Razor\Views\List\Details.g.cshtml.cs
